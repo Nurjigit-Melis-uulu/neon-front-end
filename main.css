@@ -21,7 +21,6 @@ section {
   position: relative;
   width: 100px;
   height: 200px;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .line {
@@ -56,4 +55,57 @@ section {
   height: 50%;
   right: 0;
   top: 0;
+}
+
+.lrftb {
+  width: 120%;
+  height: 10px;
+  top: 74%;
+  left: 0px;
+  transform: rotate(50deg);
+}
+
+.rl {
+  width: 10px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.bl {
+  width: calc(100% - 30px);
+  height: 10px;
+  left: 15px;
+  bottom: 0;
+}
+
+.n .lrftb {
+  top: 95px;
+  left: -56px;
+  width: 210%;
+  transform: rotate(72deg);
+}
+
+.t .tl {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.vcl {
+  width: 10px;
+  height: calc(100% - 15px);
+  top: 15px;
+  left: calc(50% - 5px);
+}
+
+.llp {
+  width: 10px;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+}
+
+.d .cl {
+  top: 50%;
 }
