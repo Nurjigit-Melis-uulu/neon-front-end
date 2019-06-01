@@ -11,7 +11,7 @@ function check() {
     for (let i = 0; i < lines.length; i++) {
       lines[i].style.animation = "neon 2s 1 forwards";
     }
-    button.innerHTML = "stop";
+    button.innerHTML = "finish";
     buttonStatus = false;
   } else {
     for (let i = 0; i < lines.length; i++) {
