@@ -14,8 +14,46 @@ section {
 .box {
   width: 80%;
   display: flex;
+  justify-content: space-around;
 }
 
 .word {
   position: relative;
+  width: 100px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.line {
+  position: absolute;
+  box-shadow: 0 0 10px white inset;
+  border-radius: 10px;
+}
+
+.ll {
+  width: 10px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.tl {
+  width: calc(100% - 30px);
+  height: 10px;
+  left: 15px;
+  top: 0;
+}
+
+.cl {
+  width: calc(100% - 30px);
+  height: 10px;
+  left: 15px;
+  top: calc(50% - 10px);
+}
+
+.rlp {
+  width: 10px;
+  height: 50%;
+  right: 0;
+  top: 0;
 }
