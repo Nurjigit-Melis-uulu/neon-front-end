@@ -11,6 +11,24 @@ section {
   align-items: center;
 }
 
+.control {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+}
+
+#button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
 .box {
   width: 80%;
   display: flex;
@@ -142,5 +160,26 @@ section {
   40% {
     background: #1a1e24;
     box-shadow: 0 0 10px #1a1e24;
+  }
+}
+
+@keyframes neonStop {
+
+  35%,
+  37%,
+  39%,
+  41%,
+  100% {
+    background: #1a1e24;
+    box-shadow: 0 0 10px #1a1e24;
+  }
+
+  0%,
+  34%,
+  36%,
+  38%,
+  40% {
+    background: #f1f4f5;
+    box-shadow: 0 0 10px #f1f4f5;
   }
 }
