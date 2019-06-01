@@ -199,7 +199,7 @@ section {
 @media (max-width: 500px) {
   .box {
     flex-flow: column;
-    transform: scale(.5, .5);
+    transform: scale(.4, .4);
   }
 
   .word {

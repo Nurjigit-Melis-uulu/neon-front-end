@@ -29,7 +29,8 @@ let arrayOfDelay = [
   4.2,
   3.4,
   4,
-  2
+  2,
+  1
 ];
 
 button.addEventListener("click", () => {
