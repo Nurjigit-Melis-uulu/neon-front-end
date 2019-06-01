@@ -30,15 +30,21 @@ section {
 }
 
 .box {
-  width: 80%;
+  max-width: 1000px;
   display: flex;
   justify-content: space-around;
 }
 
 .word {
+  width: 100%;
+  display: flex;
+}
+
+.letter {
   position: relative;
   width: 100px;
   height: 200px;
+  margin: 0 5px;
 }
 
 .line {
@@ -181,5 +187,22 @@ section {
   40% {
     background: #f1f4f5;
     box-shadow: 0 0 10px #f1f4f5;
+  }
+}
+
+@media (max-width: 1090px) {
+  .box {
+    transform: scale(.5, .5);
+  }
+}
+
+@media (max-width: 500px) {
+  .box {
+    flex-flow: column;
+    transform: scale(.5, .5);
+  }
+
+  .word {
+    justify-content: center;
   }
 }
