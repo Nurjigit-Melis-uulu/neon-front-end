@@ -48,6 +48,7 @@ function check() {
       }
     }
     button.innerHTML = "finish";
+    button.className = "active";
     buttonStatus = false;
   } else {
     for (let i = 0; i < lines.length; i++) {
@@ -58,6 +59,7 @@ function check() {
       }
     }
     button.innerHTML = "play";
+    button.className = "";
     buttonStatus = true;
   }
 }
